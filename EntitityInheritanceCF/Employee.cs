@@ -6,6 +6,7 @@ using System.Web;
 
 namespace EntitityInheritanceCF
 {
+    [Table("Employees")]
     public abstract class Employee
     {
         [Column(Order = 1)]

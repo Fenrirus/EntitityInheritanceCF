@@ -6,6 +6,7 @@ using System.Web;
 
 namespace EntitityInheritanceCF
 {
+    [Table("PermanentEmployees")]
     public class PermanentEmployee : Employee
     {
         [Column(Order = 5)]
